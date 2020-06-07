@@ -51,8 +51,8 @@ def print_cal():
         yy = sys.argv[2]
         return print(calendar.month(int(yy), int(mm)))
     else: 
-        print('Please follow this format to run this file: 14_cal.py [month] [year]')
-        
+        print('Please follow this format: 14_cal.py [month] [year]')
+
 print_cal()
 
 
